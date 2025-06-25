@@ -36,12 +36,12 @@ navLinks.forEach(link => {
 });
 
 // Optionally, on page load, show only #home and hide others
-window.addEventListener('DOMContentLoaded', () => {
-  sections.forEach(section => {
-    if (section.id === 'home') {
-      section.style.display = 'block';
-    } else {
-      section.style.display = 'none';
-    }
-  });
-});
+// window.addEventListener('DOMContentLoaded', () => {
+//   sections.forEach(section => {
+//     if (section.id === 'home') {
+//       section.style.display = 'block';
+//     } else {
+//       section.style.display = 'none';
+//     }
+//   });
+// });
